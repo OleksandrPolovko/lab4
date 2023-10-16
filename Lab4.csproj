@@ -48,6 +48,7 @@
     <Compile Include="Computer.cs" />
     <Compile Include="Ecosystem.cs" />
     <Compile Include="IConnectable.cs" />
+    <Compile Include="IDriveable.cs" />
     <Compile Include="IPredator.cs" />
     <Compile Include="IReproducible.cs" />
     <Compile Include="LivingOrganism.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Plant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Road.cs" />
     <Compile Include="Router.cs" />
     <Compile Include="Server .cs" />
     <Compile Include="Workstation.cs" />

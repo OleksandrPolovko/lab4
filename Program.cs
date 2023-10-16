@@ -32,5 +32,32 @@ namespace Lab4
                     Console.WriteLine($"Energy: {organism.Energy}, Age: {organism.Age}, Size: {organism.Size}");
                 }
             }
-    }
-}
+        }
+
+        //Tusk2
+        {
+    static void Main()
+        {
+            Network network = new Network();
+
+            Server server = new Server();
+            Workstation workstation = new Workstation();
+            Router router = new Router();
+
+            network.AddComputer(server);
+            network.AddComputer(workstation);
+            network.AddComputer(router);
+
+            network.ConnectComputers(server, workstation);
+            network.ConnectComputers(workstation, router);
+
+            network.SimulateDataTransfer(server, workstation, "Hello from the server!");
+            network.SimulateDataTransfer(workstation, server, "Hello from the workstation!");
+
+            // Виведення результатів моделювання
+            foreach (var computer in network)
+            {
+                Console.WriteLine($"IP Address: {computer.IPAddress}, Power: {computer.Power}, OS: {computer.OperatingSystem}");
+            }
+        }
+

@@ -45,14 +45,20 @@
   <ItemGroup>
     <Compile Include="Animal.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Computer.cs" />
     <Compile Include="Ecosystem.cs" />
+    <Compile Include="IConnectable.cs" />
     <Compile Include="IPredator.cs" />
     <Compile Include="IReproducible.cs" />
     <Compile Include="LivingOrganism.cs" />
     <Compile Include="Microorganism.cs" />
+    <Compile Include="Network.cs" />
     <Compile Include="Plant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Router.cs" />
+    <Compile Include="Server .cs" />
+    <Compile Include="Workstation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
